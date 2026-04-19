@@ -3,48 +3,52 @@
   "WorkspaceRootPath": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\aggregation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\aggregation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\models\\viewmodels\\projectvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\models\\viewmodels\\projectvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\models\\projectequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\models\\projectequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\models\\viewmodels\\projectvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\models\\viewmodels\\projectvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\_addnewequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\_addnewequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\projects\\aggregation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\aggregation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\1294701\\nif_builder_nakibul_1294701\\nif_builder\\nif_builder core edition code first approach\\nif_builder\\views\\equipments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -114,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,43 +154,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Edit.cshtml",
-              "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Edit.cshtml",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Edit.cshtml",
-              "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Edit.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAowI0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T18:16:24.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Aggregation.cshtml",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
-              "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
-              "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowDIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T18:15:37.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Create.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Create.cshtml",
               "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Create.cshtml",
               "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Create.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowH4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowF8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-18T18:15:03.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Index.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Index.cshtml",
@@ -198,31 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\ProjectsController.cs",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "NIF_Builder\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAuwIcAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T18:09:47.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProjectVM.cs",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
-              "RelativeDocumentMoniker": "NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
-              "RelativeToolTip": "NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T18:05:00.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Equipments\\Index.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Index.cshtml",
@@ -234,31 +190,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "ProjectEquipment.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Models\\ProjectEquipment.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Models\\ProjectEquipment.cs",
               "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Models\\ProjectEquipment.cs",
               "RelativeToolTip": "NIF_Builder\\Models\\ProjectEquipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T17:17:14.152Z"
+              "WhenOpened": "2026-04-18T17:17:14.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "NIF_Builder\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-18T17:51:31.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Delete.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Delete.cshtml",
@@ -270,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "_addNewEquipment.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\_addNewEquipment.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\_addNewEquipment.cshtml",
@@ -282,7 +240,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\ProjectsController.cs",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "NIF_Builder\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T18:09:47.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectVM.cs",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
+              "RelativeDocumentMoniker": "NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
+              "RelativeToolTip": "NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T18:05:00.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Edit.cshtml",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Edit.cshtml",
+              "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Edit.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowI0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T18:16:24.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "NIF_Builder\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "NIF_Builder\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-19T15:40:07.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Aggregation.cshtml",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
+              "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
+              "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowDIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T18:15:37.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Equipments\\Edit.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Edit.cshtml",
@@ -294,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Equipments\\Details.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Details.cshtml",
@@ -306,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Equipments\\Delete.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Delete.cshtml",
@@ -318,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Equipments\\Create.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Create.cshtml",
@@ -330,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EquipmentsController.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Controllers\\EquipmentsController.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\EquipmentsController.cs",
@@ -342,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "libman.json",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\libman.json",
               "RelativeDocumentMoniker": "NIF_Builder\\libman.json",
@@ -354,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20260418174602_ScriptA.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Migrations\\20260418174602_ScriptA.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Migrations\\20260418174602_ScriptA.cs",
@@ -366,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Program.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Program.cs",
@@ -378,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\appsettings.json",
               "RelativeDocumentMoniker": "NIF_Builder\\appsettings.json",
@@ -390,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Shared\\_LoginPartial.cshtml",
@@ -402,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Data\\ApplicationDbContext.cs",
@@ -414,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Equipment.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Models\\Equipment.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Models\\Equipment.cs",
@@ -426,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Project.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Models\\Project.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Models\\Project.cs",
@@ -438,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Data\\ApplicationUser.cs",
@@ -450,13 +471,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "NIF_Builder.csproj",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\NIF_Builder.csproj",
               "RelativeDocumentMoniker": "NIF_Builder\\NIF_Builder.csproj",
               "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\1294701\\NIF_Builder_Nakibul_1294701\\NIF_Builder\\NIF_Builder CORE EDITION Code First Approach\\NIF_Builder\\NIF_Builder.csproj",
               "RelativeToolTip": "NIF_Builder\\NIF_Builder.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-04-18T17:05:04.084Z"
             }

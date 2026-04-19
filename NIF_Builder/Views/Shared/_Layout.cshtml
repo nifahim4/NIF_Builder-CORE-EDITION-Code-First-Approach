@@ -1,98 +1,122 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NIF Builders</title> <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>@ViewData["Title"] - NIF Builders</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/NIF_Builder.styles.css" asp-append-version="true" />
-
-    <style>
-        .navbar-brand {
-            font-weight: 800; 
-            letter-spacing: 1px;
-            color: #ffc107 !important;
-        }
-        body {
-            border-top: 5px solid #ffc107;
-        } /* [cite: 3] */
-
-        footer {
-            color: #6c757d;
-            font-weight: 500; 
-        }
-        
-        .pagination .active .page-link {
-            background-color: #ffc107 !important; 
-            border-color: #ffc107 !important; 
-            color: #343a40 !important; 
-        }
-
-        .pagination .page-link:hover {
-            background-color: #343a40 !important; 
-            border-color: #343a40 !important; 
-            color: #ffc107 !important; 
-        }
-
-        .pagination .page-link {
-            border-color: #dee2e6; 
-        } 
-    </style>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark shadow-sm mb-3"> <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    🏗️ NIF BUILDERS </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a></li> <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Projects" asp-action="Index">Project Management</a></li> <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Equipments" asp-action="Index">Equipment Fleet</a></li> <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About Us</a></li> <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li> </ul>
-                    <partial name="_LoginPartial" /> </div>
-            </div>
-        </nav>
-    </header>
-
-    <div class="container body-content mt-4"> <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-        
-        <hr class="mt-5" /> <footer>
-            <div class="d-flex justify-content-between align-items-center"> <p>&copy; @DateTime.Now.Year - NIF Builders Project & Equipment Management System</p> <p>Safety First.</p> </div>
-        </footer>
-    </div>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    
-    @await RenderSectionAsync("Scripts", required: false)
-
+    <script src="~/lib/jquery/dist/jquery.js"></script>
     <script>
-        $(document).ready(function () {
-            $("#btnPlus").click(function (e) {
-                e.preventDefault(); 
-                var equipmentCntr = $("#equipmentContainer"); 
-
-                $.ajax({
-                    url: "/Projects/AddNewEquipment", 
-                    type: "GET", 
-                    success: function (data) { 
-                        equipmentCntr.append(data); 
-                    },
-                    error: function () {
-                        alert("Error loading the equipment list. Please try again."); 
-                    }
-                });
+        function LoadData(equipmentId = null) {
+            var equipmentCntr = $("#equipmentContainer");
+            $.ajax({
+                url: "/Projects/AddNewEquipment" + (equipmentId != null ? "?id=" + equipmentId : ""),
+                type: "GET",
+                success: function (data) {
+                    equipmentCntr.append(data);
+                },
+                error: function () {
+                    alert("Error loading the equipment list. Please try again.");
+                }
             });
-            
-            $(document).on("click", "#btnDelete", function (e) { 
-                e.preventDefault(); 
-                $(this).parent().parent().remove(); 
-            });
+        }
+        $(document).on("click", "#btnPlus", function (e) {
+            e.preventDefault();
+            LoadData();
+        });
+        $(document).on("click", "#btnDelete", function (e) {
+            e.preventDefault();
+            $(this).parent().parent().remove();
         });
     </script>
-</body>
-</html>
+
+    <style>
+            .navbar-brand {
+                font-weight: 800;
+                letter-spacing: 1px;
+                color: #ffc107 !important;
+            }
+
+            body {
+                border-top: 5px solid #ffc107;
+            }
+
+            /* [cite: 3] */
+
+            footer {
+                color: #6c757d;
+                font-weight: 500;
+            }
+        
+            .pagination .active .page-link {
+                background-color: #ffc107 !important;
+                border-color: #ffc107 !important;
+                color: #343a40 !important;
+            }
+
+            .pagination .page-link:hover {
+                background-color: #343a40 !important;
+                border-color: #343a40 !important;
+                color: #ffc107 !important;
+            }
+
+            .pagination .page-link {
+                border-color: #dee2e6;
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark shadow-sm mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    🏗️ NIF BUILDERS </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+                        class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home"
+                                                        asp-action="Index">Dashboard</a></li>
+                                <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Projects"
+                                                            asp-action="Index">Project Management</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Equipments"
+                                                                asp-action="Index">Equipment Fleet</a></li>
+                                        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home"
+                                                                    asp-action="About">About Us</a></li>
+                                            <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home"
+                                                                        asp-action="Contact">Contact</a></li>
+                                            </ul>
+                                            <partial name="_LoginPartial" />
+                                        </div>
+                                    </div>
+                                </nav>
+                            </header>
+
+                            <div class="container body-content mt-4">
+                                <main role="main" class="pb-3">
+                                    @RenderBody()
+                                </main>
+        
+                                <hr class="mt-5" />
+                                <footer>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p>&copy; @DateTime.Now.Year - NIF Builders Project & Equipment Management System</p>
+                                        <p>Safety First.</p>
+                                    </div>
+                                </footer>
+                            </div>
+
+                            <script src="~/lib/jquery/dist/jquery.min.js"></script>
+                            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                            <script src="~/js/site.js" asp-append-version="true"></script>
+    
+                            @await RenderSectionAsync("Scripts", required: false)
+                        </body>
+
+                    </html>

@@ -10,7 +10,7 @@ namespace NIF_Builder.Models.ViewModels
         [Required(ErrorMessage = "Project name is required!!")]
         [StringLength(100)]
         [Display(Name = "Project Name")]
-        public string ProjectName { get; set; }
+        public string ProjectName { get; set; } = default!;
 
         [Required]
         [Column(TypeName = "date")]
@@ -31,7 +31,7 @@ namespace NIF_Builder.Models.ViewModels
         public bool WorkInProgress { get; set; }
         [Display(Name = "Upload Document")]
         public IFormFile? ProjectDocumentFile { get; set; }
-        public string ProjectDocuments { get; set; }
+        public string? ProjectDocuments { get; set; }
 
 
         public List<int> EquipmentList { get; set; } = new List<int>();
