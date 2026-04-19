@@ -1,0 +1,12 @@
+﻿@model NIF_Builder.Models.ProjectEquipment
+
+<div class="row mb-2">
+    <div class="col-10">
+        <select name="equipmentId" class="form-select form-select-sm" asp-items="ViewBag.equipments">
+            <option value="">-------Select------</option>
+        </select>
+    </div>
+    <div class="col-2">
+        <a class="btn btn-danger btn-sm text-white" id="btnDelete">X</a>
+    </div>
+</div>

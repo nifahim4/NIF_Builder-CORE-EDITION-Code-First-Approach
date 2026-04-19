@@ -1,0 +1,51 @@
+﻿@model IEnumerable<NIF_Builder.Models.Project>
+@{
+    ViewData["Title"] = "Financial Aggregation";
+}
+
+<div class="row mt-4">
+    <div class="col-5">
+        <h2 class="display-5 text-primary">Project Info</h2>
+        <table class="table table-bordered table-striped table-sm shadow-sm">
+            <thead class="table-primary">
+                <tr>
+                    <th>Project Name</th>
+                    <th>Assigned Budget</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="fw-bold">@Html.DisplayFor(xx => item.ProjectName)</td>
+                        <td class="text-end">$@Html.DisplayFor(xx => item.Budget)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="col-7">
+        <h2 class="display-5 text-success">Budget Aggregation</h2>
+        <table class="table table-bordered table-striped table-sm shadow-sm text-center">
+            <thead class="table-success">
+                <tr>
+                    <th>Total Projects</th>
+                    <th>Maximum Budget</th>
+                    <th>Minimum Budget</th>
+                    <th>Total Capital</th>
+                    <th>Average Budget</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="fs-5 fw-bold">@ViewBag.count</td>
+                    <td class="text-success">$@ViewBag.max</td>
+                    <td class="text-danger">$@ViewBag.min</td>
+                    <td class="fw-bold">$@ViewBag.sum</td>
+                    <td class="text-primary">$@ViewBag.avg</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<NIF_Builder.Models.Project>
+@{
+    ViewData["Title"] = "Project List";
+}
+
+<div class="row mt-4">
+    <div class="col">
+        <h2 class="display-4">Project List</h2>
+        <div class="d-flex justify-content-end">
+            <a asp-action="Create" asp-controller="Projects" class="btn btn-outline-primary btn-sm mb-3">Add New Project</a>
+        </div>
+        
+        @foreach (var p in Model)
+        {
+            <div class="card mb-3 shadow-sm border-0" style="border-top: 3px solid #0d6efd;">
+                <div class="card-header bg-light d-flex justify-content-between align-items-center py-3">
+                    <div>
+                        <span class="fs-5 fw-bold text-primary me-3">🏗️ @Html.DisplayFor(xx => p.ProjectName)</span>
+                        <label class="me-3"><b>Budget :</b> $@Html.DisplayFor(xx => p.Budget)</label>
+                        <label class="me-3"><b>Start Date :</b> @p.StartDate.ToString("MMM dd, yyyy")</label>
+                        <label class="me-3"><b>Est. End :</b> @p.EstimateEndDate.ToString("MMM dd, yyyy")</label>
+                        <label class="me-3">
+                            <b>Status :</b>
+                            @(p.WorkInProgress? Html.Raw("<span class='badge bg-warning text-dark'>In Progress</span>") : Html.Raw("<span class='badge bg-success'>Completed</span>"))
+                        </label>
+                    </div>
+                    <div>
+                        <a asp-action="Edit" asp-controller="Projects" asp-route-id="@p.ProjectID" class="btn btn-outline-success btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-controller="Projects" asp-route-id="@p.ProjectID" class="btn btn-outline-danger btn-sm">Delete</a>
+                    </div>
+                </div>
+                
+                <div class="card-body bg-white">
+                    <h6 class="text-muted fw-bold mb-2">Assigned Equipment</h6>
+                    @if (p.ProjectEquipments != null && p.ProjectEquipments.Any())
+                    {
+                        <table class="table table-bordered table-striped table-sm mb-0">
+                            <thead class="table-info">
+                                <tr>
+                                    <th>Asset Name / Model</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in p.ProjectEquipments)
+                                {
+                                    <tr>
+                                        <td>🚜 @Html.DisplayFor(xx => item.Equipment.EquipmentName)</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        <div class="alert alert-secondary py-2 mb-0">No equipment currently assigned to this project.</div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>

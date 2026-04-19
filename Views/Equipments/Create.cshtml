@@ -1,0 +1,54 @@
+﻿@model NIF_Builder.Models.Equipment
+
+@{
+    ViewData["Title"] = "Add Machinery";
+}
+
+<div class="row mt-4 justify-content-center">
+    <div class="col-md-8 col-lg-6">
+
+        <div class="text-center mb-4">
+            <h2 class="display-5 fw-bold">➕ Add New Machinery</h2>
+            <p class="text-muted">Register a new heavy asset to the NIF Builders fleet inventory.</p>
+        </div>
+
+        <div class="card shadow-sm border-0" style="border-top: 5px solid #ffc107;">
+            <div class="card-header bg-dark text-white py-3">
+                <h4 class="mb-0">🚜 Equipment Details</h4>
+            </div>
+
+            <div class="card-body bg-light p-4">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <div class="mb-4">
+                        <label asp-for="EquipmentName" class="form-label fw-bold text-dark">Machinery Name / Model</label>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-text bg-warning text-dark border-warning" title="Asset Name">🏷️</span>
+                            <input asp-for="EquipmentName" class="form-control border-warning shadow-none" placeholder="e.g., Caterpillar D9 Bulldozer" />
+                        </div>
+                        <span asp-validation-for="EquipmentName" class="text-danger small mt-1 d-block fw-bold"></span>
+                    </div>
+
+                    <hr class="text-secondary mb-4" />
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a asp-action="Index" class="btn btn-outline-secondary fw-bold">
+                            ⬅️ Back to Fleet
+                        </a>
+                        <button type="submit" class="btn btn-warning fw-bold text-dark px-4 border-dark">
+                            💾 Save Machinery
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
