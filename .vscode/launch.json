@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/IsDB/M_07_Core/Project/1294701/NIF_Builder_Nakibul_1294701/NIF_Builder/NIF_Builder CORE EDITION Code First Approach",
+      "program": "d:/IsDB/M_07_Core/Project/1294701/NIF_Builder_Nakibul_1294701/NIF_Builder/NIF_Builder CORE EDITION Code First Approach/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

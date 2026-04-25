@@ -486,22 +486,26 @@ D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\obj\De
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\obj\Debug\net10.0\compressed\phy1r113a2-{0}-rf9f4pws8w-rf9f4pws8w.gz
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\obj\Debug\net10.0\compressed\lb1vip0fsm-{0}-dosqy3kf6t-dosqy3kf6t.gz
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\obj\Debug\net10.0\compressed\zy3cco4itp-{0}-sgabxu717i-sgabxu717i.gz
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\appsettings.Development.json
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\appsettings.json
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\libman.json
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.staticwebassets.endpoints.json
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.staticwebassets.runtime.json
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.exe
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.deps.json
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.runtimeconfig.json
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.pdb
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Azure.Core.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Azure.Identity.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Humanizer.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\appsettings.Development.json
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\appsettings.json
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\libman.json
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.staticwebassets.runtime.json
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.staticwebassets.endpoints.json
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Azure.Core.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Azure.Identity.dll
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Humanizer.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
@@ -522,12 +526,8 @@ D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Bu
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.Data.Sqlite.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.DiaSymReader.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.DotNet.Scaffolding.Shared.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.Identity.Client.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -568,7 +568,6 @@ D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Bu
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\System.Composition.Hosting.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\System.Composition.Runtime.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\System.Composition.TypedParts.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\System.Memory.Data.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\System.Reflection.MetadataLoadContext.dll
@@ -739,9 +738,7 @@ D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Bu
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\runtimes\linux-arm\native\libe_sqlite3.so
@@ -973,5 +970,8 @@ D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Bu
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\obj\Debug\net10.0\NIF_Builder.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\obj\Debug\net10.0\refint\NIF_Builder.dll
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\obj\Debug\net10.0\NIF_Builder.pdb
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.deps.json
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.runtimeconfig.json
+D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\bin\Debug\net10.0\NIF_Builder.pdb
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\obj\Debug\net10.0\NIF_Builder.genruntimeconfig.cache
 D:\IsDB\M_07_Core\Project\1294701\NIF_Builder_Nakibul_1294701\NIF_Builder\NIF_Builder CORE EDITION Code First Approach\NIF_Builder\obj\Debug\net10.0\ref\NIF_Builder.dll
