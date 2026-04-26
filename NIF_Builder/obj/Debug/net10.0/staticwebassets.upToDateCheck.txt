@@ -1,6 +1,16 @@
 wwwroot\css\site.css
 wwwroot\Documents\5lts1jqw.at3.jpg
+wwwroot\Documents\stjoc2a2.fvb.jpg
+wwwroot\Documents\v55rigvt.rgi.jpg
 wwwroot\favicon.ico
+wwwroot\Images\bulldozer-construction.jpg
+wwwroot\Images\compactor-construction.jpg
+wwwroot\Images\construction-crane.jpg
+wwwroot\Images\construction-equipment.jpg
+wwwroot\Images\dragline-construction.jpg
+wwwroot\Images\dump-truck-construction.jpg
+wwwroot\Images\excavator-construction.jpg
+wwwroot\Images\fron-end-loader.jpg
 wwwroot\js\site.js
 wwwroot\lib\ajax\dist\jquery.unobtrusive-ajax.js
 wwwroot\lib\ajax\dist\jquery.unobtrusive-ajax.min.js

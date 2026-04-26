@@ -4,6 +4,7 @@ using System.Diagnostics;
 
 namespace NIF_Builder.Controllers
 {
+    //[Route("[action]/[controller]")]
     public class HomeController : Controller
     {
         public IActionResult Index()

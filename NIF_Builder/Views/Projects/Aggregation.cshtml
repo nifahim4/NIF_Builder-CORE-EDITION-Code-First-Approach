@@ -4,48 +4,67 @@
 }
 
 <div class="row mt-4">
-    <div class="col-5">
-        <h2 class="display-5 text-primary">Project Info</h2>
-        <table class="table table-bordered table-striped table-sm shadow-sm">
-            <thead class="table-primary">
-                <tr>
-                    <th>Project Name</th>
-                    <th>Assigned Budget</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td class="fw-bold">@Html.DisplayFor(xx => item.ProjectName)</td>
-                        <td class="text-end">$@Html.DisplayFor(xx => item.Budget)</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+    <div class="col-12 text-center mb-5">
+        <h2 class="display-4 fw-bold">📊 Financial Dashboard</h2>
+        <p class="text-muted">High-level financial aggregation across all NIF Builder job sites.</p>
+    </div>
+
+    <div class="col-lg-5 mb-4">
+        <div class="card shadow-sm border-0 h-100" style="border-top: 5px solid #343a40;">
+            <div class="card-header bg-dark text-white py-3">
+                <h4 class="mb-0 text-warning">🏗️ Individual Project Info</h4>
+            </div>
+            <div class="card-body bg-light p-0">
+                <table class="table table-hover mb-0 align-middle">
+                    <thead class="table-secondary text-dark">
+                        <tr>
+                            <th class="ps-4">Project Name</th>
+                            <th class="text-end pe-4">Assigned Budget</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="ps-4 fw-bold text-secondary">@Html.DisplayFor(xx => item.ProjectName)</td>
+                                <td class="text-end pe-4 text-dark fw-bold">$@Html.DisplayFor(xx => item.Budget)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
     
-    <div class="col-7">
-        <h2 class="display-5 text-success">Budget Aggregation</h2>
-        <table class="table table-bordered table-striped table-sm shadow-sm text-center">
-            <thead class="table-success">
-                <tr>
-                    <th>Total Projects</th>
-                    <th>Maximum Budget</th>
-                    <th>Minimum Budget</th>
-                    <th>Total Capital</th>
-                    <th>Average Budget</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="fs-5 fw-bold">@ViewBag.count</td>
-                    <td class="text-success">$@ViewBag.max</td>
-                    <td class="text-danger">$@ViewBag.min</td>
-                    <td class="fw-bold">$@ViewBag.sum</td>
-                    <td class="text-primary">$@ViewBag.avg</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="col-lg-7 mb-4">
+        <div class="card shadow-sm border-0 h-100" style="border-top: 5px solid #ffc107;">
+            <div class="card-header bg-dark text-white py-3">
+                <h4 class="mb-0">📈 Overall Budget Aggregation</h4>
+            </div>
+            <div class="card-body bg-light p-4 d-flex align-items-center">
+                <div class="table-responsive w-100">
+                    <table class="table table-bordered bg-white shadow-sm text-center mb-0 align-middle">
+                        <thead class="table-dark text-warning">
+                            <tr>
+                                <th class="py-3">Total Projects</th>
+                                <th>Min Budget</th>
+                                <th>Max Budget</th>
+                                <th>Average Budget</th>
+                                <th class="fs-5 text-white">Total Capital</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fs-5 fw-bold py-4">@ViewBag.count</td>
+                                <td class="text-danger fw-bold">$@ViewBag.min</td>
+                                <td class="text-success fw-bold">$@ViewBag.max</td>
+                                <td class="text-secondary fw-bold">$@ViewBag.avg</td>
+                                <td class="fs-5 fw-bold text-dark bg-warning">$@ViewBag.sum</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

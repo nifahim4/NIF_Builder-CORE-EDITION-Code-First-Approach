@@ -8,6 +8,8 @@ using NIF_Builder.Models.ViewModels;
 
 namespace NIF_Builder.Controllers
 {
+    //[Route("[action]/[controller]")]
+    //[Authorize(Roles = "Admin")]
     public class ProjectsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -18,7 +20,7 @@ namespace NIF_Builder.Controllers
             _context = context;
             _he = he;
         }
-
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Projects.Include(x => x.ProjectEquipments).ThenInclude(y => y.Equipment).ToListAsync());

@@ -10,27 +10,27 @@
     <link rel="stylesheet" href="~/NIF_Builder.styles.css" asp-append-version="true" />
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script>
-        function LoadData(equipmentId = null) {
-            var equipmentCntr = $("#equipmentContainer");
-            $.ajax({
-                url: "/Projects/AddNewEquipment" + (equipmentId != null ? "?id=" + equipmentId : ""),
-                type: "GET",
-                success: function (data) {
-                    equipmentCntr.append(data);
-                },
-                error: function () {
-                    alert("Error loading the equipment list. Please try again.");
-                }
+            function LoadData(equipmentId = null) {
+                var equipmentCntr = $("#equipmentContainer");
+                $.ajax({
+                    url: "/Projects/AddNewEquipment" + (equipmentId != null ? "?id=" + equipmentId : ""),
+                    type: "GET",
+                    success: function (data) {
+                        equipmentCntr.append(data);
+                    },
+                    error: function () {
+                        alert("Error loading the equipment list. Please try again.");
+                    }
+                });
+            }
+            $(document).on("click", "#btnPlus", function (e) {
+                e.preventDefault();
+                LoadData();
             });
-        }
-        $(document).on("click", "#btnPlus", function (e) {
-            e.preventDefault();
-            LoadData();
-        });
-        $(document).on("click", "#btnDelete", function (e) {
-            e.preventDefault();
-            $(this).parent().parent().remove();
-        });
+            $(document).on("click", "#btnDelete", function (e) {
+                e.preventDefault();
+                $(this).parent().parent().remove();
+            });
     </script>
 
     <style>
@@ -91,8 +91,11 @@
                                                                     asp-action="About">About Us</a></li>
                                             <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home"
                                                                         asp-action="Contact">Contact</a></li>
+                                            @if (User.IsInRole("Admin") || User.IsInRole("Manager")){}
+                                            <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Role" asp-action="Index">Role Management</a></li>
+                                            <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Role" asp-action="AssignRole">Assign Role</a></li>
                                             </ul>
-                                            <partial name="_LoginPartial" />
+                                            <partial name="_LoginPartial"/>
                                         </div>
                                     </div>
                                 </nav>

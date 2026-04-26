@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Role Management";
+}
+
+<div class="row mt-4 justify-content-center">
+    <div class="col-md-8 col-lg-6">
+
+        <div class="text-center mb-4">
+            <h2 class="display-5 fw-bold">🛡️ Role Management</h2>
+            <p class="text-muted">Create and manage security roles for the NIF Builders portal.</p>
+        </div>
+
+        @if (!string.IsNullOrEmpty(ViewBag.msg as string))
+        {
+            <div class="alert alert-success shadow-sm border-success text-center mb-4 py-3 fw-bold">
+                @ViewBag.msg
+            </div>
+        }
+
+        <div class="card shadow-sm border-0" style="border-top: 5px solid #ffc107;">
+            <div class="card-header bg-dark text-white py-3">
+                <h4 class="mb-0">➕ Create New Role</h4>
+            </div>
+
+            <div class="card-body bg-light p-4">
+                <form asp-action="CreateRole" asp-controller="Role" method="post">
+                    
+                    <div class="mb-4">
+                        <label class="form-label fw-bold text-dark">Role Name</label>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-text bg-warning text-dark border-warning" title="Role Name">🏷️</span>
+                            <input type="text" name="userRole" class="form-control border-warning shadow-none" placeholder="e.g., Supervisor, Fleet Manager..." required />
+                        </div>
+                    </div>
+
+                    <hr class="text-secondary mb-4" />
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a asp-action="AssignRole" asp-controller="Role" class="btn btn-outline-dark fw-bold px-4 border-2">
+                            🔗 Assign Roles to Users
+                        </a>
+                        <button type="submit" class="btn btn-warning fw-bold text-dark px-4 border-dark">
+                            💾 Save Role
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

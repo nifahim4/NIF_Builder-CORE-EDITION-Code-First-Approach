@@ -11,6 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+        .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
@@ -30,6 +31,12 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
+
+app.MapControllerRoute(
+    name: "Create",
+    pattern: "Create.Project",
+    defaults: new { controller = "Projects", action = "Create" }
+);
 
 app.MapControllerRoute(
     name: "default",

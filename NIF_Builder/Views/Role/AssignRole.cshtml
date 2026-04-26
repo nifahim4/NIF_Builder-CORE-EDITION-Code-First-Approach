@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Assign Role";
+}
+
+<div class="row mt-4 justify-content-center">
+    <div class="col-md-8 col-lg-6">
+
+        <div class="text-center mb-4">
+            <h2 class="display-5 fw-bold">🔐 Assign Access Role</h2>
+            <p class="text-muted">Grant specific administrative access levels to registered personnel.</p>
+        </div>
+
+        @if (TempData["msg"] != null)
+        {
+            <div class="alert alert-info shadow-sm border-info text-center mb-4 py-3 fw-bold">
+                @TempData["msg"]
+            </div>
+        }
+
+        <div class="card shadow-sm border-0" style="border-top: 5px solid #343a40;">
+            <div class="card-header bg-dark text-white py-3">
+                <h4 class="mb-0 text-warning">👤 User Authorization</h4>
+            </div>
+
+            <div class="card-body bg-light p-4">
+                <form asp-action="AssignRole" asp-controller="Role" method="post">
+                    
+                    <div class="mb-4">
+                        <label class="form-label fw-bold text-dark">Select Personnel</label>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-text bg-dark text-warning border-dark">👷</span>
+                            <select name="userData" class="form-select border-dark shadow-none" required>
+                                <option value="">------- Select User Account -------</option>
+                                @if (ViewBag.users != null)
+                                {
+                                    foreach (var item in ViewBag.users)
+                                    {
+                                        <option value="@item.Email">@item.Email</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-bold text-dark">Select Access Level</label>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-text bg-dark text-warning border-dark">🛡️</span>
+                            <select name="roleData" class="form-select border-dark shadow-none" required>
+                                <option value="">------- Select Target Role -------</option>
+                                @if (ViewBag.roles != null)
+                                {
+                                    foreach (var item in ViewBag.roles)
+                                    {
+                                        <option value="@item.NormalizedName">@item.NormalizedName</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <hr class="text-secondary mb-4" />
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a asp-action="Index" class="btn btn-outline-secondary fw-bold px-4">
+                            ⬅️ Back to Roles
+                        </a>
+                        <button type="submit" class="btn btn-dark border-warning border-2 fw-bold px-4">
+                            ✅ Grant Access
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

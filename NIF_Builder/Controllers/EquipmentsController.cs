@@ -10,6 +10,7 @@ using NIF_Builder.Models;
 
 namespace NIF_Builder.Controllers
 {
+    [Route("[action]/[controller]")]
     public class EquipmentsController : Controller
     {
         private readonly ApplicationDbContext _context;

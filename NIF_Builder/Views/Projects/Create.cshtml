@@ -3,9 +3,15 @@
     ViewData["Title"] = "Create Project";
 }
 
-<div class="row mt-4">
-    <div class="col">
+<div class="row mt-4 justify-content-center">
+    <div class="col-12">
+        <div class="text-center mb-4">
+            <h2 class="display-5 fw-bold">➕ Add New Project</h2>
+            <p class="text-muted">Initialize a new construction project and assign initial heavy equipment.</p>
+        </div>
+        
         <div id="panel"></div>
+        
         <form id="frmCreate"
               asp-action="Create"
               asp-controller="Projects"
@@ -15,86 +21,91 @@
               data-ajax-success="success"
               data-ajax="true"
               enctype="multipart/form-data">
-            <div class="d-flex justify-content-between">
-                <div class="col-6">
-                    <h1 class="display-5">Add New Project</h1>
-                    
-                    <div class="row mb-2">
-                        <label class="col-form-label col-form-label-sm col-3" asp-for="ProjectName"></label>
-                        <div class="col-7">
-                            <input asp-for="ProjectName" class="form-control form-control-sm" />
+            
+            <div class="row g-4">
+                <div class="col-lg-7">
+                    <div class="card shadow-sm border-0 h-100" style="border-top: 5px solid #ffc107;">
+                        <div class="card-header bg-dark text-white py-3">
+                            <h4 class="mb-0">🏗️ Project Details</h4>
                         </div>
-                        <div class="col-2">
-                            <span asp-validation-for="ProjectName" class="text-danger"></span>
-                        </div>
-                    </div>
+                        <div class="card-body bg-light p-4">
+                            
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-dark" asp-for="ProjectName"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-warning text-dark border-warning">🏷️</span>
+                                    <input asp-for="ProjectName" class="form-control border-warning shadow-none" placeholder="e.g., Downtown Commercial Tower" />
+                                </div>
+                                <span asp-validation-for="ProjectName" class="text-danger small mt-1 d-block fw-bold"></span>
+                            </div>
 
-                    <div class="row mb-2">
-                        <label class="col-form-label col-form-label-sm col-3" asp-for="StartDate"></label>
-                        <div class="col-7">
-                            <input asp-for="StartDate" class="form-control form-control-sm" type="date" />
-                        </div>
-                        <div class="col-2">
-                            <span asp-validation-for="StartDate" class="text-danger"></span>
-                        </div>
-                    </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold text-dark" asp-for="StartDate"></label>
+                                    <div class="input-group">
+                                        <span class="input-group-text bg-warning text-dark border-warning">📅</span>
+                                        <input asp-for="StartDate" class="form-control border-warning shadow-none" type="date" />
+                                    </div>
+                                    <span asp-validation-for="StartDate" class="text-danger small mt-1 d-block fw-bold"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold text-dark" asp-for="EstimateEndDate"></label>
+                                    <div class="input-group">
+                                        <span class="input-group-text bg-warning text-dark border-warning">🏁</span>
+                                        <input asp-for="EstimateEndDate" class="form-control border-warning shadow-none" type="date" />
+                                    </div>
+                                    <span asp-validation-for="EstimateEndDate" class="text-danger small mt-1 d-block fw-bold"></span>
+                                </div>
+                            </div>
 
-                    <div class="row mb-2">
-                        <label class="col-form-label col-form-label-sm col-3" asp-for="EstimateEndDate"></label>
-                        <div class="col-7">
-                            <input asp-for="EstimateEndDate" class="form-control form-control-sm" type="date" />
-                        </div>
-                        <div class="col-2">
-                            <span asp-validation-for="EstimateEndDate" class="text-danger"></span>
-                        </div>
-                    </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-dark" asp-for="Budget"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-warning text-dark border-warning">💲</span>
+                                    <input asp-for="Budget" class="form-control border-warning shadow-none" type="number" placeholder="Enter budget amount" />
+                                </div>
+                                <span asp-validation-for="Budget" class="text-danger small mt-1 d-block fw-bold"></span>
+                            </div>
 
-                    <div class="row mb-2">
-                        <label class="col-form-label col-form-label-sm col-3" asp-for="Budget"></label>
-                        <div class="col-7">
-                            <input asp-for="Budget" class="form-control form-control-sm" type="number" />
-                        </div>
-                        <div class="col-2">
-                            <span asp-validation-for="Budget" class="text-danger"></span>
-                        </div>
-                    </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-dark" asp-for="ProjectDocumentFile"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-warning text-dark border-warning">📄</span>
+                                    <input asp-for="ProjectDocumentFile" class="form-control border-warning shadow-none" type="file" />
+                                </div>
+                                <span asp-validation-for="ProjectDocumentFile" class="text-danger small mt-1 d-block fw-bold"></span>
+                            </div>
 
-                    <div class="row mb-2">
-                        <label class="col-form-label col-form-label-sm col-3" asp-for="ProjectDocumentFile"></label>
-                        <div class="col-7">
-                            <input asp-for="ProjectDocumentFile" class="form-control form-control-sm" type="file" />
-                        </div>
-                        <div class="col-2">
-                            <span asp-validation-for="ProjectDocumentFile" class="text-danger"></span>
-                        </div>
-                    </div>
+                            <div class="mb-4 form-check form-switch mt-3 fs-5">
+                                <input asp-for="WorkInProgress" class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                                <label class="form-check-label fw-bold text-dark ms-2" for="flexSwitchCheckDefault" asp-for="WorkInProgress">Active Work In Progress</label>
+                            </div>
 
-                    <div class="row mb-2">
-                        <label class="col-form-label col-form-label-sm col-3" asp-for="WorkInProgress"></label>
-                        <div class="col-7">
-                            <input asp-for="WorkInProgress" type="checkbox" />
-                        </div>
-                        <div class="col-2">
-                            <span asp-validation-for="WorkInProgress" class="text-danger"></span>
-                        </div>
-                    </div>
-
-                    <div class="row mb-2 mt-4">
-                        <div class="col-10 offset-3">
-                            <input type="submit" value="Save Project" class="btn btn-primary" />
                         </div>
                     </div>
                 </div>
 
-                <div class="col-5">
-                    <h1 class="display-5">Equipment Fleet</h1>
-                    <div class="d-flex justify-content-end">
-                        <a class="btn btn-outline-primary btn-sm mb-1" id="btnPlus">+ Add Row</a>
-                    </div>
-                    <div id="equipmentContainer">
-                        <script>
-                                                    LoadData();
-                        </script>
+                <div class="col-lg-5">
+                    <div class="card shadow-sm border-0 h-100" style="border-top: 5px solid #343a40;">
+                        <div class="card-header bg-dark text-white py-3 d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0">🚜 Equipment Fleet</h4>
+                            <a class="btn btn-warning btn-sm fw-bold text-dark" id="btnPlus">➕ Add Asset</a>
+                        </div>
+                        <div class="card-body bg-light p-4">
+                            <div class="alert alert-secondary py-2 border-secondary small text-center mb-4">
+                                Allocate heavy machinery to this project.
+                            </div>
+                            
+                            <div id="equipmentContainer">
+                                <script>
+                                                                    LoadData();
+                                </script>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white p-4 border-0 text-end">
+                            <a asp-action="Index" class="btn btn-outline-secondary fw-bold me-2">⬅️ Cancel</a>
+                            <button type="submit" class="btn btn-warning fw-bold text-dark border-dark px-4">💾 Save Project</button>
+                        </div>
                     </div>
                 </div>
             </div>
