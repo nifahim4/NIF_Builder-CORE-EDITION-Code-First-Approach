@@ -1,12 +1,6 @@
 wwwroot\css\site.css
-wwwroot\Documents\4eiuzubx.wc2.jpg
-wwwroot\Documents\4erzmbs0.qoi.jpg
-wwwroot\Documents\5lts1jqw.at3.jpg
-wwwroot\Documents\cwv0oedx.ita.jpg
-wwwroot\Documents\fq5l3woh.zlj.jpg
-wwwroot\Documents\stjoc2a2.fvb.jpg
-wwwroot\Documents\v55rigvt.rgi.jpg
-wwwroot\Documents\w42sceeb.n5o.jpg
+wwwroot\Documents\0ykbgzh2.ukd.jpg
+wwwroot\Documents\br4nmtaj.2jx.jpg
 wwwroot\favicon.ico
 wwwroot\Images\bulldozer-construction.jpg
 wwwroot\Images\compactor-construction.jpg
