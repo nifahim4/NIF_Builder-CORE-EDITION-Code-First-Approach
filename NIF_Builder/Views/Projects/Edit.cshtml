@@ -83,6 +83,17 @@
                                     </a>
                                 }
                                 <span asp-validation-for="ProjectDocumentFile" class="text-danger small mt-1 d-block fw-bold"></span>
+                                @* small image *@
+                                @if (!string.IsNullOrEmpty(Model.ProjectDocuments))
+                                {
+                                    <img src="@Model.ProjectDocuments" width="40" height="40" style="border-radius:5px; object-fit: cover; border: 1px solid #ccc;" alt="Doc" title="Site Document Attached" />
+                                }
+                                else
+                                {
+                                    <div style="width: 40px; height: 40px; border-radius: 5px; background-color: #e9ecef; border: 1px dashed #ccc; display:flex; justify-content:center; align-items:center;" title="No Document">
+                                        📄
+                                    </div>
+                                }
                             </div>
 
                             <div class="mb-4 form-check form-switch mt-3 fs-5">
@@ -131,9 +142,9 @@
     <script src="~/lib/ajax/dist/jquery.unobtrusive-ajax.js"></script>
 
     <script>
-        function success() {
-            alert("Project Updated Successfully!");
-        }
+        // function success() {
+        //     alert("Project Updated Successfully!");
+        // }
 
         function LoadData(id = null) {
             var url = "/Projects/AddNewEquipment";

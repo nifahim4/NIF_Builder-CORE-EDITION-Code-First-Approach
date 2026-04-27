@@ -37,6 +37,11 @@ app.MapControllerRoute(
     pattern: "Create.Project",
     defaults: new { controller = "Projects", action = "Create" }
 );
+app.MapControllerRoute(
+    name: "Edit",
+    pattern: "Edit.Project",
+    defaults: new { controller = "Projects", action = "Edit" }
+);
 
 app.MapControllerRoute(
     name: "default",

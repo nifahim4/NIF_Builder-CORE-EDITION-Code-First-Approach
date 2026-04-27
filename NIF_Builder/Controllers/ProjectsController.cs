@@ -9,7 +9,7 @@ using NIF_Builder.Models.ViewModels;
 namespace NIF_Builder.Controllers
 {
     //[Route("[action]/[controller]")]
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,IT")]
     public class ProjectsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -190,16 +190,41 @@ namespace NIF_Builder.Controllers
 
         public async Task<IActionResult> Delete(int? id)
         {
-            var proj = await _context.Projects.FirstOrDefaultAsync(x => x.ProjectID == id);
-            var existEquipment = _context.ProjectEquipments.Where(x => x.ProjectID == id).ToList();
-
-            foreach (var item in existEquipment)
+            if (id == null)
             {
-                _context.ProjectEquipments.Remove(item);
+                return NotFound();
             }
 
-            _context.Remove(proj);
-            await _context.SaveChangesAsync();
+            var project = await _context.Projects
+                .FirstOrDefaultAsync(m => m.ProjectID == id);
+
+            if (project == null)
+            {
+                return NotFound();
+            }
+
+            return View(project);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int ProjectID) 
+        {
+            var project = await _context.Projects.FindAsync(ProjectID);
+
+            if (project != null)
+            {
+                var existEquipment = _context.ProjectEquipments.Where(x => x.ProjectID == ProjectID).ToList();
+                foreach (var item in existEquipment)
+                {
+                    _context.ProjectEquipments.Remove(item);
+                }
+
+                _context.Projects.Remove(project);
+
+                await _context.SaveChangesAsync();
+            }
+
             return RedirectToAction(nameof(Index));
         }
     }

@@ -21,6 +21,16 @@
             <div class="card mb-4 shadow-sm border-0" style="border-top: 5px solid #ffc107;">
                 <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center py-3">
                     <div class="d-flex align-items-center flex-wrap gap-4">
+                        @if (!string.IsNullOrEmpty(p.ProjectDocuments))
+                        {
+                            <img src="@p.ProjectDocuments" width="40" height="40" style="border-radius:5px; object-fit: cover; border: 1px solid #ccc;" alt="Doc" title="Site Document Attached" />
+                        }
+                        else
+                        {
+                            <div style="width: 40px; height: 40px; border-radius: 5px; background-color: #e9ecef; border: 1px dashed #ccc; display:flex; justify-content:center; align-items:center;" title="No Document">
+                                📄
+                            </div>
+                        }
                         <span class="fs-4 fw-bold text-warning">@Html.DisplayFor(xx => p.ProjectName)</span>
                         <span class="badge bg-secondary border border-light text-light px-3 py-2 fs-6">
                             💲 $@Html.DisplayFor(xx => p.Budget)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ using NIF_Builder.Models;
 namespace NIF_Builder.Controllers
 {
     [Route("[action]/[controller]")]
+    [Authorize (Roles = "Admin,IT")]
     public class EquipmentsController : Controller
     {
         private readonly ApplicationDbContext _context;

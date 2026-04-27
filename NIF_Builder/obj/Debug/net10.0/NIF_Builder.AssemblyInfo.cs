@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NIF_Builder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef78be4fa9eebd43a6339cf6d72601185dc096e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90ae9a183f572bdc11ffaeeb626f2635daefc3a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("NIF_Builder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NIF_Builder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

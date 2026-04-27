@@ -7,7 +7,7 @@ using Microsoft.Identity.Client;
 namespace NIF_Builder.Controllers
 {
     [Route("[action]/[controller]")]
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     public class RoleController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
