@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\viewcomponents\\activeprojectsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\viewcomponents\\activeprojectsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\views\\shared\\components\\activeprojects\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\shared\\components\\activeprojects\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\nif_builder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\nif_builder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -49,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -149,10 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|d:\\isdb\\m_07_core\\project\\nif_builder-core-edition-code-first-approach\\nif_builder\\nif_builder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CC7F1320-5D33-64C7-7233-E3BD0FB98BE3}|NIF_Builder\\NIF_Builder.csproj|solutionrelative:nif_builder\\nif_builder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -162,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,72 +206,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwDIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-26T16:04:04.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAuwFkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-26T15:34:05.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\ProjectsController.cs",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "NIF_Builder\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAwJEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T18:09:47.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\RoleController.cs",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "NIF_Builder\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T15:41:41.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "NIF_Builder\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAADwv2EAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAowGoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-18T17:51:31.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\HomeController.cs",
@@ -271,12 +227,11 @@
               "RelativeToolTip": "NIF_Builder\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T17:31:31.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T17:31:31.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Program.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Program.cs",
@@ -284,12 +239,11 @@
               "RelativeToolTip": "NIF_Builder\\Program.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAACoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T17:40:28.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T17:40:28.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Projects\\Delete.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Delete.cshtml",
@@ -297,12 +251,112 @@
               "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Delete.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T18:16:57.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:16:57.081Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "NIF_Builder.csproj",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\NIF_Builder.csproj",
+              "RelativeDocumentMoniker": "NIF_Builder\\NIF_Builder.csproj",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\NIF_Builder.csproj",
+              "RelativeToolTip": "NIF_Builder\\NIF_Builder.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-18T17:05:04.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Shared\\Components\\ActiveProjects\\Default.cshtml",
+              "RelativeDocumentMoniker": "NIF_Builder\\Views\\Shared\\Components\\ActiveProjects\\Default.cshtml",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Shared\\Components\\ActiveProjects\\Default.cshtml",
+              "RelativeToolTip": "NIF_Builder\\Views\\Shared\\Components\\ActiveProjects\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T17:18:43.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\ProjectsController.cs",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "NIF_Builder\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwJwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T18:09:47.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActiveProjectsViewComponent.cs",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\ViewComponents\\ActiveProjectsViewComponent.cs",
+              "RelativeDocumentMoniker": "NIF_Builder\\ViewComponents\\ActiveProjectsViewComponent.cs",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\ViewComponents\\ActiveProjectsViewComponent.cs",
+              "RelativeToolTip": "NIF_Builder\\ViewComponents\\ActiveProjectsViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:17:12.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:34:05.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "NIF_Builder\\Models\\Project.cs",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Models\\Project.cs",
+              "RelativeToolTip": "NIF_Builder\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T17:14:02.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "NIF_Builder\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:41:41.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwDIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T16:04:04.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Projects\\Edit.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Edit.cshtml",
@@ -310,12 +364,11 @@
               "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Edit.cshtml",
               "ViewState": "AgIAAH8AAAAAAAAAAAAYwJIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T18:16:24.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:16:24.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "EquipmentsController.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Controllers\\EquipmentsController.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Controllers\\EquipmentsController.cs",
@@ -323,12 +376,11 @@
               "RelativeToolTip": "NIF_Builder\\Controllers\\EquipmentsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T17:50:48.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T17:50:48.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Projects\\Create.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Create.cshtml",
@@ -336,12 +388,11 @@
               "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T18:15:03.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:15:03.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Projects\\Index.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Index.cshtml",
@@ -349,24 +400,11 @@
               "RelativeToolTip": "NIF_Builder\\Views\\Projects\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-18T18:14:09.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T18:14:09.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Project.cs",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "NIF_Builder\\Models\\Project.cs",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Models\\Project.cs",
-              "RelativeToolTip": "NIF_Builder\\Models\\Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T17:14:02.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\appsettings.json",
               "RelativeDocumentMoniker": "NIF_Builder\\appsettings.json",
@@ -378,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Shared\\_LoginPartial.cshtml",
@@ -390,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "AssignRole.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Role\\AssignRole.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Role\\AssignRole.cshtml",
@@ -402,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Role\\Index.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Role\\Index.cshtml",
@@ -414,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "_addNewEquipment.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Projects\\_addNewEquipment.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\_addNewEquipment.cshtml",
@@ -426,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Aggregation.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Projects\\Aggregation.cshtml",
@@ -438,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Home\\Index.cshtml",
@@ -450,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Home\\About.cshtml",
@@ -462,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Equipments\\Index.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Index.cshtml",
@@ -474,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -486,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "package.json",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\wwwroot\\lib\\ajax\\package.json",
               "RelativeDocumentMoniker": "NIF_Builder\\wwwroot\\lib\\ajax\\package.json",
@@ -498,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Home\\Contact.cshtml",
@@ -510,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "ProjectEquipment.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Models\\ProjectEquipment.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Models\\ProjectEquipment.cs",
@@ -522,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "ProjectVM.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Models\\ViewModels\\ProjectVM.cs",
@@ -534,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Shared\\_Layout.cshtml.css",
@@ -546,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Equipments\\Edit.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Edit.cshtml",
@@ -558,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Equipments\\Details.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Details.cshtml",
@@ -570,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Equipments\\Delete.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Delete.cshtml",
@@ -582,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Views\\Equipments\\Create.cshtml",
               "RelativeDocumentMoniker": "NIF_Builder\\Views\\Equipments\\Create.cshtml",
@@ -594,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "libman.json",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\libman.json",
               "RelativeDocumentMoniker": "NIF_Builder\\libman.json",
@@ -606,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "20260418174602_ScriptA.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Migrations\\20260418174602_ScriptA.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Migrations\\20260418174602_ScriptA.cs",
@@ -618,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Data\\ApplicationDbContext.cs",
@@ -630,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Equipment.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Models\\Equipment.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Models\\Equipment.cs",
@@ -642,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "NIF_Builder\\Data\\ApplicationUser.cs",
@@ -651,18 +689,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T17:09:24.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "NIF_Builder.csproj",
-              "DocumentMoniker": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\NIF_Builder.csproj",
-              "RelativeDocumentMoniker": "NIF_Builder\\NIF_Builder.csproj",
-              "ToolTip": "D:\\IsDB\\M_07_Core\\Project\\NIF_Builder-CORE-EDITION-Code-First-Approach\\NIF_Builder\\NIF_Builder.csproj",
-              "RelativeToolTip": "NIF_Builder\\NIF_Builder.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-18T17:05:04.084Z"
             }
           ]
         }
