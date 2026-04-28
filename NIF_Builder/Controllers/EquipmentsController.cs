@@ -11,7 +11,7 @@ using NIF_Builder.Models;
 
 namespace NIF_Builder.Controllers
 {
-    [Route("[action]/[controller]")]
+    //[Route("[action]/[controller]")]
     [Authorize (Roles = "Admin,IT")]
     public class EquipmentsController : Controller
     {

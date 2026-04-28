@@ -1,6 +1,4 @@
 wwwroot\css\site.css
-wwwroot\Documents\0ykbgzh2.ukd.jpg
-wwwroot\Documents\br4nmtaj.2jx.jpg
 wwwroot\favicon.ico
 wwwroot\Images\bulldozer-construction.jpg
 wwwroot\Images\compactor-construction.jpg
@@ -221,6 +219,8 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\Documents\0ykbgzh2.ukd.jpg
+wwwroot\Documents\br4nmtaj.2jx.jpg
 D:\IsDB\M_07_Core\Project\NIF_Builder-CORE-EDITION-Code-First-Approach\NIF_Builder\wwwroot\lib\jquery\LICENSE.txt
 D:\IsDB\M_07_Core\Project\NIF_Builder-CORE-EDITION-Code-First-Approach\NIF_Builder\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\IsDB\M_07_Core\Project\NIF_Builder-CORE-EDITION-Code-First-Approach\NIF_Builder\wwwroot\lib\jquery\dist\jquery.slim.min.js

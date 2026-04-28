@@ -39,8 +39,19 @@ app.MapControllerRoute(
 );
 app.MapControllerRoute(
     name: "Edit",
-    pattern: "Edit.Project",
+    pattern: "{id}.Edit.Project",
     defaults: new { controller = "Projects", action = "Edit" }
+);
+
+app.MapControllerRoute(
+    name: "Create",
+    pattern: "Create.Equipment",
+    defaults: new { controller = "Equipments", action = "Create" }
+);
+app.MapControllerRoute(
+    name: "Edit",
+    pattern: "{id}.Edit.Equipment",
+    defaults: new { controller = "Equipments", action = "Edit" }
 );
 
 app.MapControllerRoute(
